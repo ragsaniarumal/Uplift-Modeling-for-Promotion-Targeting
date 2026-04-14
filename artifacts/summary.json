@@ -1,0 +1,39 @@
+{
+  "experiment": {
+    "blanket_expected_nir": -4687.792546033344,
+    "control_purchase_rate": 0.007564619397676073,
+    "incremental_response_rate": 0.009454547819772702,
+    "irr_ci_high": 0.010803709422636079,
+    "irr_ci_low": 0.007920106773848615,
+    "n": 84534.0,
+    "p_value": 1.1096419254071562e-35,
+    "promotion_purchase_rate": 0.017019167217448776,
+    "treatment_rate": 0.5011474672912675,
+    "z_score": 12.468449461599388
+  },
+  "response_model": {
+    "control_purchase_rate": 0.00641025641025641,
+    "expected_incremental_purchases": 131.28808038808037,
+    "expected_nir": 298.5808038808036,
+    "incremental_response_rate": 0.019415569415569413,
+    "promotion_purchase_rate": 0.025825825825825825,
+    "selected_from_validation": 0.4,
+    "target_fraction": 0.4,
+    "targeted_customers": 6762.0
+  },
+  "split_sizes": {
+    "test": 16907,
+    "train": 50720,
+    "validation": 16907
+  },
+  "uplift_s_learner": {
+    "control_purchase_rate": 0.007880220646178092,
+    "expected_incremental_purchases": 80.12623280050104,
+    "expected_nir": 40.462328005010384,
+    "incremental_response_rate": 0.015797758832906357,
+    "promotion_purchase_rate": 0.02367797947908445,
+    "selected_from_validation": 0.3,
+    "target_fraction": 0.3,
+    "targeted_customers": 5072.0
+  }
+}
