@@ -117,7 +117,7 @@ def run(data_path: str | Path = DEFAULT_PATH) -> dict:
     dash.update_yaxes(title_text="Expected NIR ($)", row=1, col=1)
     dash.update_yaxes(title_text="Incremental response (percentage points)", row=1, col=2)
     dash.update_layout(title="PriceSense — promotion targeting explorer", template="plotly_white")
-    dash.write_html(REPORTS / "dashboard.html", include_plotlyjs=True, div_id="pricesense-dashboard")
+    dash.write_html(REPORTS / "dashboard.html", include_plotlyjs="cdn", div_id="pricesense-dashboard")
 
     return summary
 
