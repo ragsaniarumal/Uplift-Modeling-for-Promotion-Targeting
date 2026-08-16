@@ -1,4 +1,4 @@
-# PriceSense
+# PriceSense - Uplift Modeling for Promotion Targeting
 
 **Who actually needs a promotion?**
 
